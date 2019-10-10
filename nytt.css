@@ -1,0 +1,48 @@
+body{
+
+  background-color: black;
+  color: white;
+  
+}
+
+
+/* @media only screen and (max-width: 600px) {
+  body {
+    background-color: black;*/
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 20%;
+  padding: 10px;
+}
+  .column1 {
+    float: left;
+    width: 40%;
+    padding: 10px;
+}.column2 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+.column3 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#runt {
+  border: 5px solid gold;
+  text-align: center;
+  padding: auto;
+  border-radius: 20px;
+}
